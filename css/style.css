@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    background: #efefef;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.divisor {
+    padding: 0;
+    border-top: solid 5px #DDD;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 25px;
+}
+.divisor:after {
+    background-color: #efefef;
+    color: #DDD;
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em;
+}
+#sobre {
+    margin-bottom: 15px;
+}
+#contato {
+    background: #efefef;
+    padding-bottom: 30px;
+}
+#links {
+    padding-bottom: 15px;
+}
+#links .thumbnail p.texto{
+    height: 120px;
+}
+footer {
+    padding-top: 15px;
+    background: #efefef;
+}
+.copyrights {
+    font-size: 10px;
+}
